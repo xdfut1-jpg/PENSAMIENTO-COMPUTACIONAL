@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cin>>n;
+    switch((2*n)+1){
+        case 1:
+        cout<<"lunes";
+        break;
+        case 2:
+        cout<<"martes";
+        break;
+        case 3:
+        cout<<"miercoless";
+        break;
+        case 4:
+        cout<<"jueves";
+        break;
+        case 5:
+        cout<<"viernes";
+        break;
+        case 6:
+        cout<<"sabado";
+        break;
+        case 7:
+        cout<<"domingo";
+        break;
+        default: cout<<"error";}
+        
+    return 0;
+}
