@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double a,b,x,y,z,m;
+    cout<<"ingrese un digito:";cin>>a;
+    cout<<"ingrese otro digito:";cin>>b;
+    cout<<"Menu:"<<endl;
+    cout<<"1:sumar"<<endl;
+    cout<<"2:resta"<<endl;
+     cout<<"3:multiplicacion"<<endl;
+     cout<<"4:division"<<endl;
+     int n;
+    cin>>n;
+    switch(n){
+        case 1:
+        x=a+b;
+        cout<<x;
+        break;
+        case 2:
+        y=a-b;
+        cout<<y;
+        break;
+        case 3:
+        z=a*b;
+        cout<<z;
+        break;
+        case 4:
+        m=a/b;
+        cout<<m;
+        break;
+        default:
+        cout<<"xD";
+        
+    return 0;
+}}
