@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double lado,base,altura;
+     cout<<"1:Area del cuadrado"<<endl;
+     cout<<"2:Area del rectangulo"<<endl;
+     cout<<"3:Area del triangulo"<<endl;
+     int n;
+    cin>>n;
+    switch(n){
+        case 1:
+        cout<<"introdusca el lado del cuadrado:";
+         cin>>lado;
+        cout<<lado*lado;
+        break;
+        case 2:
+         cout<<"introdusca base y la altura del rectangulo:";
+        cin>>base>>altura;
+        cout<<(base*altura);
+        break;
+        case 3:
+         cout<<"introdusca base y la altura del triangulo:";
+        cin>>base>>altura;
+        cout<<(base*altura)/2;
+        break;
+        case 4:
+        cout<<"ADIOS";
+        default:
+        cout<<"opcion invalida";
+        
+    return 0;
+}}

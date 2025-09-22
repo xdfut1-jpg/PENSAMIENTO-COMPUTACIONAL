@@ -1,0 +1,64 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double minutos,totaldeminutos;
+     cout<<"12:AMERICA DEL NORTE"<<endl;
+     cout<<"15:AMERICA CENTRAL"<<endl;
+     cout<<"18:AMERICA DEL SUR"<<endl;
+      cout<<"19:EUROPA"<<endl;
+     cout<<"23:ASIAL"<<endl;
+     cout<<"25:AFRICA"<<endl;
+      cout<<"29:OCEANIA"<<endl;
+     int n;
+    cin>>n;
+    switch(n){
+        case 12:
+        cout<<"cuantos minutos quieres hablar:";
+        cin>>minutos;
+         totaldeminutos=2*minutos;
+        cout<<totaldeminutos;
+        
+        break;
+        case 15:
+         cout<<"cuantos minutos quieres hablar:";
+        cin>>minutos;
+        totaldeminutos=(2.2)*minutos;
+        cout<<totaldeminutos;
+        
+        break;
+        case 18:
+         cout<<"cuantos minutos quieres hablar:";
+        cin>>minutos;
+        totaldeminutos=(4.5)*minutos;
+        cout<<totaldeminutos;
+        break;
+        case 19:
+          cout<<"cuantos minutos quieres hablar:";
+        cin>>minutos;
+        totaldeminutos=(3.5)*minutos;
+        cout<<totaldeminutos;
+         break;
+    
+        case 23:
+          cout<<"cuantos minutos quieres hablar:";
+        cin>>minutos;
+        totaldeminutos=6*minutos;
+        cout<<totaldeminutos;
+        break;
+        case 25:
+          cout<<"cuantos minutos quieres hablar:";
+        cin>>minutos;
+        totaldeminutos=6*minutos;
+        cout<<totaldeminutos;
+        break;
+        case 29:
+          cout<<"cuantos minutos quieres hablar:";
+        cin>>minutos;
+        totaldeminutos=5*minutos;
+        cout<<totaldeminutos;
+        break;
+        default:
+        cout<<"opcion invalida";
+        
+    return 0;
+}}
