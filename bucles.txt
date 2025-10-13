@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int impar=1,i,n;
+    cin>>n;
+    for(i=1;i<=n;i++){
+        cout<<impar<<endl;
+        impar=impar+2;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    return 0;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
