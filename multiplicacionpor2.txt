@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int c,n,i;
+    cin>>n;
+    for(i=1;i<=n;i++){
+        
+        c=2*i;
+        cout<<2<<"*"<<i<<"="<<c<<endl;}
+      
+    
+    
+    return 0;
+    
+    
+}
