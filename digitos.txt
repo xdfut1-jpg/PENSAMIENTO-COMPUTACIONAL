@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int i,y,n;
+    cin>>y;
+    while(y>0){
+    n=y-(y/10)*10;
+     y=y/10;
+     i++;}
+    
+    
+    
+    cout<<i;
+    
+    
+    
+    
+    
+    
+    
+    return 0;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

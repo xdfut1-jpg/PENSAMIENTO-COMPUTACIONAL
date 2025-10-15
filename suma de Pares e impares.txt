@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int i=0,y,n,l=0,a=0,b=0;
+    cin>>y;
+    while(y>0){
+        n=y%10;
+        if(y%2==0){
+            a=a+n;
+        }else{
+            b=b+n;
+            
+        }y=y/10;
+        i++;}
+        cout<<"suma de pares"<<a<<"suma de impares"<<b;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    return 0;
+    
+    
+    
+    
+}
