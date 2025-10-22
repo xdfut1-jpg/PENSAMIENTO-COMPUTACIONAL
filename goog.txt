@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int i,j,n,suma1=1;
+    double suma2,suma=0;
+    cin>>n;
+    for(i=1;i<=n;i++){
+        suma2=i;
+        suma1=1;
+        for(j=1;j<=i;j++){
+              suma1=suma1*j;
+        } 
+        suma2=suma2/suma1;
+        
+        suma=suma+suma2;
+    }
+    
+    cout<<suma;
+    
+    
+    
+    return 0;
+    
+    
+    
+    
+    
+    
+    
+}
