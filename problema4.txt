@@ -1,0 +1,31 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+    int i,j,k,n,suma=0,suma2=1,p,c=0;
+    float suma1=0;
+    cin>>n;
+    int numero[n];
+    for(i=0;i<n;i++){
+        cin>>numero[i];
+        suma=suma+numero[i];
+        
+    }
+    suma1=suma/n;
+    for(i=0;i<n;i++){
+        p=numero[i]-suma1;
+        if(p<0){
+            p=p*(-1);
+        }
+        c=c+p;
+    }cout<<(float)c/n;
+    return 0;
+    
+    
+    
+    
+    
+    
+    
+}
+
