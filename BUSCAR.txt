@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a[4]={121,11,115,1000};
+    int x,buscar,j,i;
+    cin>>x;
+    for(i=0;i<4;i++){
+        if(x==a[i]){
+            buscar=a[i];
+            j=i;
+            break;
+        }}
+    cout<<"el numero "<<buscar<<" se encuentra en el arreglo y esta en la posicion "<<j;
+    
+    
+    
+    
+    
+    
+    
+
+    return 0;
+}
