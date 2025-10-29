@@ -1,0 +1,16 @@
+
+#include<iostream>
+using namespace std;
+int main(){
+int i,j=0,k,n,temp;
+int a[4]={2,1,3,4};
+int b[4]={2,2,3,4};
+for(i=0;i<4;i++){
+    if(a[i]==b[i]){
+        j++;
+}}if(j==4){
+    cout<<"son iguales";
+}else{
+    cout<<"son diferentes";
+}
+return 0;}
