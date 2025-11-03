@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int i,j,n,suma=0;
+    cin>>n;
+    int a[n][n];
+    for(i=0;i<n;i++){
+        for(j=0;j<n;j++){
+            cin>>a[i][j];
+            suma=suma+a[i][j];
+               
+        }
+        
+    }cout<<suma;
+    
+    
+    
+    
+
+
+    return 0;
+}
