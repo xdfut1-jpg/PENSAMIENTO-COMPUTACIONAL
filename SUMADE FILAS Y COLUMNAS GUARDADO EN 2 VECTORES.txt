@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int i,j,n,suma=0,suma1=0;
+    int a[3][3]={{0,1,2},{3,4,5},{6,7,8}};
+    int b[3],c[3];
+    for(i=0;i<3;i++){
+        suma=0; suma1=0;
+        for(j=0;j<3;j++){
+            suma=suma+a[i][j];
+            suma1=suma1+a[j][i];}
+        
+        b[i]=suma;
+        c[i]=suma1;
+    }
+    for(i=0;i<3;i++){
+        cout<<b[i]<<" ";
+    }cout<<endl;
+    for(i=0;i<3;i++){
+        cout<<c[i]<<" ";
+    }
+    
+    
+    
+    
+
+
+    return 0;
+}
