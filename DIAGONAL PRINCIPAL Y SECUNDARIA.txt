@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int i,j,n;
+    int b[3],c[3];
+    int a[3][3]={{0,1,2},{3,4,5},{6,7,8}};
+    for(i=0;i<3;i++){
+        for(j=0;j<3;j++){
+              if(i==j){
+                  b[i]=a[i][j];
+              }
+                 
+              
+        }
+        c[i]=a[i][2-i];
+    }
+        for(i=0;i<3;i++){
+            cout<<b[i]<<" ";
+        }cout<<endl;
+        for(i=0;i<3;i++){
+            cout<<c[i]<<" ";
+        }
+      
+    
+    
+    
+    
+
+
+    return 0;
+}
