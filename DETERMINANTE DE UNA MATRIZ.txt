@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num[3][3];
+    int i, j;
+    int suma1 = 0, suma2 = 0,det;
+
+    cout << "Ingresa los elementos de la matriz 3x3:";
+    for (i = 0; i < 3; i++) {
+        for (j = 0; j < 3; j++) {
+            cin >> num[i][j];
+        }
+    }
+
+
+    for(i=0;i<3;i++) {
+          suma1=suma1+num[0][i]*num[1][(i + 1) % 3]*num[2][(i + 2) % 3];
+    }
+                  for(i = 0; i < 3; i++) {
+          suma2=suma2+num[0][(i + 2) % 3]*num[1][(i + 1) % 3]*num[2][i];
+    }
+   det=suma1-suma2;
+cout <<endl<<"La determinante (por Sarrus) es: "<<det<<endl;
+
+    return 0;}
