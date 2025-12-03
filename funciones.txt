@@ -1,0 +1,25 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int suma(int num1,int num2){
+    return num1+num2;
+}
+int resta(int num1,int num2){
+    return num1-num2;
+}
+int mult(int num1,int num2){
+    return num1*num2;
+}
+int divis(int num1,int num2){
+return (double)num1/num2;}
+int main() {
+int n1,n2,s,r,m,d;
+cin>>n1>>n2;
+s=suma(n1,n2);
+r=resta(n1,n2);
+m=mult(n1,n2);
+d=divis(n1,n2);
+cout<<"la suma es :"<<s<<endl<<"la resta es:"<<r<<endl;
+cout<<"la multiplicacion es:"<<m<<endl<<"la division es:"<<(double)d;
+    return 0;
+}
