@@ -1,0 +1,26 @@
+
+#include <iostream>
+using namespace std;
+struct libro {
+    string nombre;
+    float costo;
+};
+
+int main() {
+     libro num1[2];
+    int suma=0;
+    
+    
+    
+    for(int i=0;i<2;i++){
+        cin>>num1[i].nombre;
+        cin>>num1[i].costo;
+        suma=suma+num1[i].costo;
+    }
+   cout<<suma;
+  
+
+    return 0;
+}
+
+   
