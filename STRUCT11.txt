@@ -1,0 +1,18 @@
+
+#include <iostream>
+#include <string>  // Agregar esta línea
+using namespace std;
+
+struct pensamiento {
+    int codigo;
+    string nombre;
+    int cali;
+};
+int main() {
+    pensamiento estd;
+    estd.codigo = 202001; 
+    estd.nombre = "hola";
+    estd.cali=17;
+    cout << estd.codigo<<estd.nombre<<estd.cali;
+    return 0;
+}
